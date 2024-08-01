@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: Montserrat;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f4f9;
+}
+
+img {
+    width: 50px;
+}
+
+.container {
+    background: white;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 900px;
+    height: max-content;
+    border-radius: 30px;
+}
+
+.text span {
+    font-size: 43px;
+    font-weight: 500;
+}
+
+.text {
+    margin-top: 30px;
+}
+
+form {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 350px;
+    gap: 15px;
+}
+
+input {
+    height: 40px;
+    border: none;
+    outline: 1px solid gray;
+    padding-left: 10px;
+    width: 96.5%;
+    border-radius: 4px;
+}
+
+input:focus {
+    outline: 2px solid #0b57d0;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: end;
+    padding: 30px 10px 10px 10px;
+}
+
+.buttons a {
+    text-decoration: none;
+    text-align: center;
+    color: #0b57d0;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 12px;
+    width: 120px;
+    border-radius: 50px;
+    transition: .2s;
+}
+
+.buttons a:hover {
+    background-color: #f0f4f9;
+}
+
+a {
+    text-decoration: none;
+    color: #0b57d0;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+button {
+    cursor: pointer;
+    background: #0b57d0;
+    font-weight: bold;
+    border: none;
+    color: white;
+    width: 100px;
+    padding: 12px;
+    border-radius: 50px;
+    font-size: 13px;
+    transition: .2s;
+}
+
+button:hover {
+    background: #0e4eb5;
+    box-shadow: 1px 1px 3px gray;
+}
+
+@media (max-width: 632px) {
+    body {
+        align-items: start;
+        background: white;
+    }
+
+    form {
+        width: 100%;
+    }
+}

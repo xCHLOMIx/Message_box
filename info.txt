@@ -1,0 +1,7 @@
+# Pallettes and Fonts
+
+Blue (Normal): 0b57d0
+Blue (Hover): 0e4eb5
+Blue (Sky): f0f4f9
+
+Font: @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
